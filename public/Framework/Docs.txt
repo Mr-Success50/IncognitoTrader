@@ -1,0 +1,18 @@
+A Documentation of the the GetBusyHub libary.
+This docs. contains the name of each each CSS property and classes.
+
+1. The Margin Family: 
+    Margin Pixel: is from 1px to 49 multiplied by 2, e.g (1px, 3px, 5px etc) class Name - "mg-left1px". Same name goes for margin-right, margin-top etc.
+    Margin Percentage: is from 5% to 95% multiplied by 5, e.g (5%, 10%, 15% etc) class Name - "mg-left5pc". Same name goes for margin-right, margin-top etc.
+
+2. The Padding Family: 
+    Padding Pixel: is from 1px to 49 multiplied by 2, e.g (1px, 3px, 5px etc) class Name - "pd-bottom1px". Same name goes for padding-right, padding-top etc.
+    Padding Percentage: is from 5% to 95% multiplied by 5, e.g (5%, 10%, 15% etc) class Name - "pd-bottom5pc". Same name goes for padding-right, padding-top etc.
+
+
+3. The Font-Size Family: 
+    Font-Size Pixel: is from 5px to 50 multiplied by 1, e.g (1px, 2px, 3px etc) class Name - "ft-size5px". 
+     
+4. The Font-Size Family: 
+    Font-Size Pixel: is from 5px to 50 multiplied by 1, e.g (1px, 2px, 3px etc) class Name - "ft-size5px". 
+          

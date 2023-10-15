@@ -1,0 +1,9 @@
+Users  table:
+   Id
+  full name
+  phone
+  Password
+  Role
+  image
+  Bio
+  Date

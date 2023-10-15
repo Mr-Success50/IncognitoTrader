@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    z-index: +999; 
+    padding:20px 0 20px 0;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}   
+
+a{list-style: none;}
+
+.navDiv1{ 
+    display: flex;
+}
+
+.navDiv1 > p{ 
+    width: 50%;
+    font-weight: 700;
+}
+
+.navDiv1_p2{
+    font-size: 17px; 
+}
+
+.logoText{ 
+    font-size: 22px;
+}
+
+
+.userImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.navIcon{
+    width: 40px;
+    cursor: pointer;
+}
+
+/*Navigation | Property____________
+**/
+
+.navMenu{
+    position: absolute;
+    background-color: rgb(7,42,64);
+    width: 0;
+    height: 90%; 
+    transition: 1s;
+    overflow-y: scroll;
+}
+
+.navLink{ 
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+.childNavLink{
+    background-color: rgba(7, 42, 64, 0.411);
+    font-size: 18px;  
+    padding: 10px 0;
+    padding: 5px;
+    width: 95%;
+    margin: 5px;
+}
+
+/*Navigation | Property____________CLOSED
+**/
+ 
+@media(max-width: 854px){ 
+
+}
+
+@media(min-width: 1115px){ 
+    .logoText{ 
+    font-size: 28px;
+}
+    .navMenu{
+    height: 85%; 
+}
+
+
+}
+ 
+
+  

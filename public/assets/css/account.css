@@ -1,0 +1,79 @@
+body{
+   background-color: var(--brand-color-blue-light);
+}   
+
+
+ .frameWrapper{
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border: 1px solid rgba(0, 0, 0, 0.144);
+ }
+ 
+ .joinInput{
+   font-size: 15px;
+   color: var(--brand-color-realGray);
+   font-family: var(--brand-font-body);
+   padding:0 2%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-radius: 5px;
+   width: 96%; 
+ }  
+
+ .ft-post-H2{ 
+   font-size: 15px;
+ }
+
+/*_____Advanced table |PROPERTY_______________*/  
+   .journalTable{ 
+       table-layout: fixed; 
+   }
+   
+   .journalTable td { 
+       text-align: center;
+   }
+   .journalTable th {
+       background-color: #f2f2f2;
+   }
+
+ 
+  /* Set fixed widths for specific columns in the custom table */
+.journalTable th:nth-child(1), .journalTable td:nth-child(1) { width: 100px;}
+.journalTable th:nth-child(2), .journalTable td:nth-child(2) { width: 100px;}
+.journalTable th:nth-child(3), .journalTable td:nth-child(3) { width: 100px;}
+.journalTable th:nth-child(4), .journalTable td:nth-child(4) { width: 100px;}
+.journalTable th:nth-child(5), .journalTable td:nth-child(5) { width: 100px;}
+.journalTable th:nth-child(6), .journalTable td:nth-child(6) { width: 100px;}
+.journalTable th:nth-child(7), .journalTable td:nth-child(7) { width: 100px;}
+.journalTable th:nth-child(8), .journalTable td:nth-child(8) { width: 100px;}
+.journalTable th:nth-child(9), .journalTable td:nth-child(9) { width: 100px;}
+.journalTable th:nth-child(10), .journalTable td:nth-child(10) { width: 100px;}
+.journalTable th:nth-child(11), .journalTable td:nth-child(11) { width: 100px;}
+.journalTable th:nth-child(12), .journalTable td:nth-child(12) { width: 100px;}
+.journalTable th:nth-child(13), .journalTable td:nth-child(13) { width: 100px;}
+.journalTable th:nth-child(14), .journalTable td:nth-child(14) { width: 100px;}
+.journalTable th:nth-child(15), .journalTable td:nth-child(15) { width: 100px;}
+.journalTable th:nth-child(16), .journalTable td:nth-child(16) { width: 300px;}
+.journalTable th:nth-child(17), .journalTable td:nth-child(17) { width: 100px;}
+ 
+/*_____Advanced table |CLOSED_______________*/ 
+
+ 
+/*_____TABLET VERSION |RESPONSIVE PROPERTY_______________*/
+
+@media(min-width: 854px){
+   /*_____General PROPERTY_______________*/  
+
+   .defaultSec{ 
+      background-color: rgba(255, 255, 255, 0.87); 
+      border-radius: 5px;
+      box-shadow: 0 15px 20px rgba(0,0,0,0.2); 
+   }
+
+
+    
+    
+}
+
+ 
+
